@@ -86,7 +86,7 @@ INC += -I. \
 # NDEBUG disables assert() statements. This reduces code size pretty dramatically, per tannewt.
 
 ifeq ($(CHIP_FAMILY), samd21)
-CFLAGS += -Os -DNDEBUG
+CFLAGS += -Os -DNDEBUG -Wno-error=lto-type-mismatch
 # TinyUSB defines
 CFLAGS += -DCFG_TUSB_MCU=OPT_MCU_SAMD21 -DCFG_TUD_MIDI_RX_BUFSIZE=128 -DCFG_TUD_CDC_RX_BUFSIZE=128 -DCFG_TUD_MIDI_TX_BUFSIZE=128 -DCFG_TUD_CDC_TX_BUFSIZE=128 -DCFG_TUD_MSC_BUFSIZE=512
 endif
@@ -130,7 +130,8 @@ CFLAGS += \
 	-mcpu=cortex-m0plus \
 	-msoft-float \
 	-mfloat-abi=soft \
-	-DSAMD21
+	-DSAMD21 \
+	-Wno-error=lto-type-mismatch
 endif
 ifeq ($(CHIP_FAMILY), samd51)
 CFLAGS += \

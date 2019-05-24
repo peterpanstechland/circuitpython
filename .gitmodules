@@ -95,3 +95,9 @@
 [submodule "frozen/circuitpython-stage"]
 	path = frozen/circuitpython-stage
 	url = https://github.com/python-ugame/circuitpython-stage.git
+[submodule "frozen/Adafruit_CircuitPython_INA219"]
+	path = frozen/Adafruit_CircuitPython_INA219
+	url = https://github.com/adafruit/Adafruit_CircuitPython_INA219.git
+[submodule "frozen/RoboticsMasters_educar"]
+	path = frozen/RoboticsMasters_educar
+	url = https://github.com/peterpanstechland/RoboticsMasters_educar.git
