@@ -95,9 +95,6 @@
 [submodule "frozen/Adafruit_CircuitPython_Register"]
 	path = frozen/Adafruit_CircuitPython_Register
 	url = https://github.com/adafruit/Adafruit_CircuitPython_Register.git
-[submodule "frozen/RoboticsMasters_CircuitPython_MPU9250"]
-	path = frozen/RoboticsMasters_CircuitPython_MPU9250
-	url = https://github.com/peterpanstechland/RoboticsMasters_CircuitPython_MPU9250.git
 [submodule "frozen/Adafruit_CircuitPython_INA219"]
 	path = frozen/Adafruit_CircuitPython_INA219
 	url = https://github.com/adafruit/Adafruit_CircuitPython_INA219.git
