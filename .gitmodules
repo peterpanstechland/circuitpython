@@ -100,3 +100,15 @@
 	path = frozen/Adafruit_CircuitPython_BusDevice
 	url = https://github.com/peterpanstechland/Adafruit_CircuitPython_BusDevice.git
 	branch = build
+[submodule "frozen/Adafruit_CircuitPython_Register"]
+	path = frozen/Adafruit_CircuitPython_Register
+	url = https://github.com/peterpanstechland/Adafruit_CircuitPython_Register.git
+	branch = build
+[submodule "frozen/Adafruit_CircuitPython_INA219"]
+	path = frozen/Adafruit_CircuitPython_INA219
+	url = https://github.com/peterpanstechland/Adafruit_CircuitPython_INA219.git
+	branch = build
+[submodule "frozen/Adafruit_CircuitPython_NeoPixel"]
+	path = frozen/Adafruit_CircuitPython_NeoPixel
+	url = https://github.com/peterpanstechland/Adafruit_CircuitPython_NeoPixel.git
+	branch = build
