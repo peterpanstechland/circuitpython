@@ -14,9 +14,6 @@
 [submodule "tools/uf2"]
 	path = tools/uf2
 	url = https://github.com/Microsoft/uf2.git
-[submodule "atmel-samd/frozen/Adafruit_CircuitPython_NeoPixel"]
-	path = frozen/Adafruit_CircuitPython_NeoPixel
-	url = https://github.com/adafruit/Adafruit_CircuitPython_NeoPixel
 [submodule "frozen/Adafruit_CircuitPython_Thermistor"]
 	path = frozen/Adafruit_CircuitPython_Thermistor
 	url = https://github.com/adafruit/Adafruit_CircuitPython_Thermistor.git
@@ -92,12 +89,14 @@
 [submodule "frozen/circuitpython-stage"]
 	path = frozen/circuitpython-stage
 	url = https://github.com/python-ugame/circuitpython-stage.git
-[submodule "frozen/Adafruit_CircuitPython_Register"]
-	path = frozen/Adafruit_CircuitPython_Register
-	url = https://github.com/adafruit/Adafruit_CircuitPython_Register.git
-[submodule "frozen/Adafruit_CircuitPython_INA219"]
-	path = frozen/Adafruit_CircuitPython_INA219
-	url = https://github.com/adafruit/Adafruit_CircuitPython_INA219.git
 [submodule "frozen/RoboticsMasters_educar"]
 	path = frozen/RoboticsMasters_educar
 	url = https://github.com/peterpanstechland/RoboticsMasters_educar.git
+[submodule "frozen/RoboticsMasters_CircuitPython_MPU9250"]
+	path = frozen/RoboticsMasters_CircuitPython_MPU9250
+	url = https://github.com/peterpanstechland/RoboticsMasters_CircuitPython_MPU9250.git
+	branch = build
+[submodule "frozen/Adafruit_CircuitPython_BusDevice"]
+	path = frozen/Adafruit_CircuitPython_BusDevice
+	url = https://github.com/peterpanstechland/Adafruit_CircuitPython_BusDevice.git
+	branch = build
