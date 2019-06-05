@@ -23,9 +23,6 @@
 [submodule "frozen/Adafruit_CircuitPython_LIS3DH"]
 	path = frozen/Adafruit_CircuitPython_LIS3DH
 	url = https://github.com/adafruit/Adafruit_CircuitPython_LIS3DH.git
-[submodule "frozen/Adafruit_CircuitPython_BusDevice"]
-	path = frozen/Adafruit_CircuitPython_BusDevice
-	url = https://github.com/adafruit/Adafruit_CircuitPython_BusDevice.git
 [submodule "tools/python-semver"]
 	path = tools/python-semver
 	url = https://github.com/k-bx/python-semver.git
